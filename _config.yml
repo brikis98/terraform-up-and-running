@@ -1,44 +1,13 @@
 # Website settings
 baseurl: "/"
 url: "http://www.terraformupandrunning.com"
+thumbnail_path: "terraform-up-and-running-cover-medium.png"
 
 # About settings
-name: "Terraform: Up and Running"
+name: "Terraform: Up & Running"
 description: "This book is the fastest way to get up and running with Terraform, an open source tool that allows you to manage your infrastructure as code across a variety of cloud providers."
 website_repo_url: "https://github.com/brikis98/terraform-up-and-running"
-
-# URLs
-contact_urls:
-  twitter:
-    url: "https://twitter.com/brikis98"
-    label: "Twitter"
-    icon: "twitter-square"
-    username: "@brikis98"
-  linkedin:
-    url: "https://www.linkedin.com/in/jbrikman"
-    label: "LinkedIn"
-    icon: "linkedin-square"
-  facebook:
-    url: "https://www.facebook.com/brikis98"
-    label: "Facebook"
-    icon: "facebook-square"
-  google:
-    url: "https://plus.google.com/+YevgeniyBrikman/"
-    label: "Google+"
-    icon: "google-plus-square"
-  slideshare:
-    url: "https://www.slideshare.net/brikis98"
-    label: "SlideShare"
-    icon: "slideshare"
-  github:
-    url: "https://github.com/brikis98/"
-    label: "GitHub"
-    icon: "github-square"
-  email:
-    url: "mailto:jim@ybrikman.com"
-    label: "Email"
-    value: "jim@ybrikman.com"
-    icon: "envelope-square"
+feedback_email: "jim@ybrikman.com"
 
 # Jekyll build settings
 sass:

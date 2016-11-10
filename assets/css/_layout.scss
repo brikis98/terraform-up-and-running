@@ -1,0 +1,5 @@
+@for $i from 1 through 5 {
+  .clear-#{$i} > *:nth-child(#{$i}n+1) {
+    clear: both;
+  }
+}

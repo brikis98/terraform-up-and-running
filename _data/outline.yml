@@ -1,0 +1,38 @@
+- title: Why Terraform
+  icon: question
+  description: |
+    How DevOps is transforming the way we run software; an overview of infrastructure as code tools, including
+    configuration management, orchestration, and server templating; the benefits of infrastructure as code; a comparison
+    of Terraform, Chef, Puppet, Ansible, Salt Stack, and CloudFormation.
+
+- title: An Introduction to Terraform Syntax
+  icon: code
+  description: |
+    Installing Terraform; an overview of Terraform syntax; an overview of the Terraform CLI tool; how to deploy a single
+    server; how to deploy a web server; how to deploy a cluster of web servers; how to deploy a load balancer; how to
+    clean up resources you've created.
+
+- title: How to manage Terraform state
+  icon: database
+  description: |
+    What is Terraform state; how to store state so multiple team members can access it; how to lock state files to
+    prevent concurrency issues; how to isolate state files to limit the damage from errors; a best-practices file and
+    folder layout for Terraform projects; how to use read-only state.
+
+- title: How to create reusable infrastructure with Terraform modules
+  icon: archive
+  description: |
+    What are modules; how to create a basic module; how to make a module configurable; versioned modules; module
+    tips and tricks; using modules to define reusable, configurable pieces of infrastructure.
+
+- title: "Terraform tips & tricks: loops, if-statements, and pitfalls"
+  icon: magic
+  description: |
+    Advanced Terraform syntax; loops; if-statements; if-else statements; interpolation functions; common Terraform
+    gotchas and pitfalls.
+
+- title: How to use Terraform as a team
+  icon: users
+  description: |
+    Version control; the golden rule of Terraform; coding guidelines; Terraform style; automated testing for Terraform;
+    documentation; a workflow for teams; automation with Terraform.

@@ -7,9 +7,12 @@
   {% include head.html %}
 </head>
 <body>
-  <main class="container block p3">
-    {{ content }}
+  <main class="max-width-4 mx-auto">
+    <div class="clearfix">
+      {{ content }}
+    </div>
+    {% include foot.html %}
   </main>
-  {% include foot.html %}
+  {% include scripts.html %}
 </body>
 </html>

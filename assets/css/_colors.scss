@@ -1,3 +1,22 @@
+$hyperlink-color: #07c;
+
+a {
+  color: $hyperlink-color;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.hyperlink-color {
+  color: $hyperlink-color;
+}
+
+.hyperlink-color-on-hover:hover {
+  color: $hyperlink-color;
+}
+
 .medium-gray {
   color: #696969;
 }

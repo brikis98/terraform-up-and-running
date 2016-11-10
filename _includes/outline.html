@@ -1,4 +1,4 @@
-<section class="mt4 mb4 p3">
+<section class="mt4 mb4 p2 max-width-3 mx-auto">
   <h2 class="mb0">About the book</h2>
   <p class="mt2 thin">
     This book is for Sysadmins, Operations Engineers, Release Engineers, Site Reliability Engineers, DevOps Engineers,
@@ -14,19 +14,15 @@
     most critical aspects of modern operations: managing infrastructure as code. In fact, you'll learn not only how to
     manage infrastructure as code using Terraform, but also how this fits into the overall DevOps world.
   </p>
-  <div class="clearfix mxn3 clear-2">
+  <div class="clearfix clear-2">
     {% for chapter in site.data.outline %}
-      <div class="md-col md-col-6 pr3 mb3">
-        <div class="clearfix">
-          <span class="fa-stack fa-3x book-blue col col-4">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-{{ chapter.icon }} fa-stack-1x fa-inverse"></i>
-          </span>
-          <div class="col col-8">
-            <h3 class="mt0">Ch {{ forloop.index }}. {{ chapter.title }}</h3>
-            <p class="light-gray thin">{{ chapter.description }}</p>
-          </div>
-        </div>
+      <div class="md-col md-col-6 px2 mb3 center">
+        <span class="fa-stack fa-3x book-blue center">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-{{ chapter.icon }} fa-stack-1x fa-inverse"></i>
+        </span>
+        <h3 class="left-align">Ch {{ forloop.index }}: {{ chapter.title }}</h3>
+        <p class="light-gray thin left-align">{{ chapter.description }}</p>
       </div>
     {% endfor %}
   </div>

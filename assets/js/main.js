@@ -26,6 +26,6 @@
 
     ga('send', props);
   };
-  
+
   $('.tracked').on('click', trackOutboundLink);
 })();

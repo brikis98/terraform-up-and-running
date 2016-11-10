@@ -1,3 +1,4 @@
 - name: O'Reilly Store
   url: "#"
   image: oreilly-logo.png
+  value: 30

@@ -1,4 +1,5 @@
 $hyperlink-color: #07c;
+$bg-gray-color: #e7e9e8;
 
 a {
   color: $hyperlink-color;
@@ -27,4 +28,8 @@ a:hover {
 
 .book-blue {
   color: #0f4d8b;
+}
+
+.bg-gray-color {
+  background-color: $bg-gray-color;
 }

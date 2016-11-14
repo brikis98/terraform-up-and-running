@@ -1,6 +1,6 @@
 # Terraform: Up and Running
 
-This is the website for the book [Terraform: Up and Running](http://www.terraformupandrunning.com) by [Yevgeniy
+This is the website for the book *[Terraform: Up and Running](http://www.terraformupandrunning.com)* by [Yevgeniy
 Brikman](http://www.ybrikman.com).
 
 ## Quick start

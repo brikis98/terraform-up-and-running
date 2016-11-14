@@ -14,9 +14,9 @@
           <i class="fa fa-circle fa-stack-2x"></i>
           <i class="fa fa-{{ chapter.icon }} fa-stack-1x fa-inverse"></i>
         </span>
-        <h3 class="left-align">Ch {{ forloop.index }}: {{ chapter.title }}</h3>
+        <h3 class="left-align">{% unless chapter.skip_chapter %}Ch {{ forloop.index }}: {% endunless %}{{ chapter.title }}</h3>
         <p class="light-gray thin left-align">{{ chapter.description }}</p>
-      </div>
+      </div> 
     {% endfor %}
   </div>
 </section>

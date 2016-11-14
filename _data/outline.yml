@@ -36,3 +36,10 @@
   description: |
     Version control; the golden rule of Terraform; coding guidelines; Terraform style; automated testing for Terraform;
     documentation; a workflow for teams; automation with Terraform.
+
+- title: Code samples
+  icon: github
+  skip_chapter: true
+  description: |
+    The book includes dozens of code samples. You can find the code here:
+    <a href="https://github.com/brikis98/terraform-up-and-running-code" target="_blank">https://github.com/brikis98/terraform-up-and-running-code</a>.

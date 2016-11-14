@@ -1,0 +1,20 @@
+- id: "early-release"
+  url: "http://shop.oreilly.com/product/0636920061939.do"
+  title: "Early Release"
+  date: "November 14, 2016"
+  image: "terraform-up-and-running-cover-early-release.jpg"
+  description: |
+    The early release of <em>Terraform: Up & Running</em> is now available! Grab a copy of the ebook before the final
+    version is done so you can start learning today. You'll receive new chapters and updates as they are written,
+    plus the final ebook bundle when the book is released.
+  call_to_action: "Get your copy at the O'Reilly Store"
+- id: "intro-to-terraform"
+  url: "http://www.slideshare.net/brikis98/an-intro-to-docker-terraform-and-amazon-ecs"
+  title: "An intro to Docker, Terraform, and Amazon ECS"
+  date: "October 26, 2016"
+  image: "quick-intro-docker-terraform-ecs.png"
+  description: |
+    This talk is a very quick intro to Docker, Terraform, and Amazon's EC2 Container Service (ECS). In just 15 minutes,
+    you'll see how to take two apps (a Rails frontend and a Sinatra backend), package them as Docker containers, run
+    them using Amazon ECS, and to define all of the infrastructure-as-code using Terraform.
+  call_to_action: "See the presentation on SlideShare"

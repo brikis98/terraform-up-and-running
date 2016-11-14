@@ -1,0 +1,21 @@
+<section class="mt4 mb4 p2 clearfix max-width-3 mx-auto" id="newsletter">
+  <h2 class="mb0">News</h2>
+  {% include newsletter.html %}
+  {% for news in site.data.news %}
+    <div class="clearfix mxn2 mt4 mb4">
+      <div class="sm-col sm-col-4 mb2 px2">
+        <a href="{{ news.url }}" target="_blank" class="tracked" data-trk="click-news-{{ news.id }}">{% include image.html path=news.image alt=news.title %}</a>
+      </div>
+      <div class="sm-col sm-col-8 thin px2">
+        <h3 class="mt0 mb0">{{ news.title }}</h3>
+        <time class="block mb1 light-gray" datetime="{{ news.date }}">{{ news.date }}</time>
+        <p class="mt0">
+          {{ news.description }}
+        </p>
+        <p>
+          <a href="{{ news.url }}" target="_blank" class="tracked" data-trk="click-news-{{ news.id }}">{{ news.call_to_action }} &raquo;</a>
+        </p>
+      </div>
+    </div>
+  {% endfor %}
+</section>

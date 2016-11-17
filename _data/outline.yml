@@ -42,4 +42,4 @@
   skip_chapter: true
   description: |
     The book includes dozens of code samples. You can find the code here:
-    <a href="https://github.com/brikis98/terraform-up-and-running-code" target="_blank">https://github.com/brikis98/terraform-up-and-running-code</a>.
+    <a href="https://github.com/brikis98/terraform-up-and-running-code" target="_blank" class="tracked" data-trk="click-code-examples-outline-section">https://github.com/brikis98/terraform-up-and-running-code</a>.

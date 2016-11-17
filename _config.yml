@@ -1,7 +1,7 @@
 # Website settings
 baseurl: "/"
 url: "http://www.terraformupandrunning.com"
-thumbnail_path: "terraform-up-and-running-cover-medium.png"
+thumbnail_path: "terraform-up-and-running-cover-3d-medium-transparent.png"
 
 # About settings
 name: "Terraform: Up & Running"

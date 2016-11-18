@@ -28,8 +28,8 @@
 - title: "Terraform tips & tricks"
   icon: magic
   description: |
-    Advanced Terraform syntax; loops; if-statements; if-else statements; interpolation functions; common Terraform
-    gotchas and pitfalls.
+    Advanced Terraform syntax; loops; if-statements; if-else statements; interpolation functions; zero-downtime,
+    rolling deployment; common Terraform gotchas and pitfalls.
 
 - title: Using Terraform as a team
   icon: users

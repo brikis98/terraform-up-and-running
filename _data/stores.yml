@@ -1,4 +1,25 @@
-- name: O'Reilly Store
+- id: "amazon"
+  name: "Amazon"
+  url: "https://www.amazon.com/Terraform-Running-Writing-Infrastructure-Code/dp/1491977086"
+  image: "amazon-small.png"
+  value: 20
+- id: "barnes-noble"
+  name: "Barnes & Noble"
+  url: "http://www.barnesandnoble.com/w/terraform-yevgeniy-brikman/1125298641"
+  image: "barnes-noble-small.png"
+  value: 20
+- id: "oreilly"
+  name: "O'Reilly Media Store"
   url: "http://shop.oreilly.com/product/0636920061939.do"
-  image: oreilly-logo.png
-  value: 30
+  image: "oreilly-small.png"
+  value: 20
+- id: "safari"
+  name: "Safari Books Online"
+  url: "https://www.safaribooksonline.com/library/view/terraform-up-and/9781491977071/"
+  image: "safari-books-small.png"
+  value: 0
+- id: "target"
+  name: "Target"
+  url: "http://www.target.com/p/terraform-up-and-running-writing-infrastructure-as-code-paperback-yevgeniy-brikman/-/A-52154207"
+  image: "target-small.png"
+  value: 20

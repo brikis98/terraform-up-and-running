@@ -1,25 +1,18 @@
-<section class="mt4 mb4 p2 clearfix max-width-3 mx-auto">
-  <h2 class="mb4">Buy now</h2>
-  <div class="clearfix mxn2">
-    <div class="sm-col sm-col-4 mb2 px2">
-      <a href="{{ site.data.stores | map:'url' | first }}" alt="O'Reilly Store" class="tracked" data-trk="order-now-book-cover-image-buy-now-section" data-value="{{ site.data.stores | map:'value' | first }}">
-        {% include image.html path="terraform-up-and-running-cover-early-release.jpg" alt="Terraform: Up and Running" %}
-      </a> 
+<section class="mt4 mb4 p2 clearfix max-width-3 mx-auto" id="buy-now">
+  <h2 class="mb2">Buy now</h2>
+  <div class="clearfix">
+    <p class="mt2 mb4 thin">
+      <em>{{ site.name }}</em> is available at the online stores below and at your local bookstore.
+    </p>
+  </div>
+  <div class="clearfix clear-2">
+    {% for store in site.data.stores %}
+    {% capture buy_text %}Buy {{ site.short_title }} on {{ store.name }}{% endcapture %}
+    <div class="md-col md-col-6 py1 center">
+      <a href="{{ store.url }}" class="block border border-gray mr2 rounded height-70 tracked" data-trk="buy-{{ store.id }}-button-get-the-book" data-value="{{ store.value }}" target="_blank" title="{{ buy_text }}">
+        {% include image.html path=store.image alt=buy_text class="align-middle" %}
+      </a>
     </div>
-    <div class="sm-col sm-col-8 justify thin px2">
-      <p class="mt0">
-        The <strong>early release</strong> of <em>Terraform: Up & Running</em> is available now at the
-        <a href="{{ site.data.stores | map:'url' | first }}" alt="O'Reilly Store" class="tracked" data-trk="order-now-oreilly-store-link-buy-now-section" data-value="{{ site.data.stores | map:'value' | first }}">O'Reilly store</a>!
-        With an early release, you get access to the book while it's still being written, so you can get started with
-        Terraform immediately. You'll receive updates when content is added, as well as the completed book when it's
-        done. The books are DRM-free, so you get lifetime access, in multiple file formats, forever.
-      </p>
-      <p class="mb4">
-        This is your chance to be one of the first to own this book and to help make it better. What did you like? What
-        did you hate? What's missing? Grab a copy at the link below and send your feedback to
-        <a href="{{ site.contact_urls.email.url }}" class="tracked" data-trk="email-feedback-to-jim">{{ site.contact_urls.email.value }}</a>.
-      </p>
-      {% include buy-now.html id="buy-now-section" %}
-    </div>
+    {% endfor %}
   </div>
 </section>

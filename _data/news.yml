@@ -1,3 +1,13 @@
+- id: "published"
+  url: "#buy-now"
+  title: |
+    <em>Terraform: Up & Running</em> is published!
+  date: "March 22, 2017"
+  image: "terraform-up-and-running-cover-medium.jpg"
+  description: |
+    The final version of <em>Terraform: Up & Running</em> has been published and the ebook and print edition are now
+    available online and in your local bookstores!
+  call_to_action: "Get your copy now!"
 - id: "early-release"
   url: "http://shop.oreilly.com/product/0636920061939.do"
   title: "Early Release"

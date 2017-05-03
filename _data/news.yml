@@ -1,3 +1,12 @@
+- id: "why-terraform"
+  url: "#why-terraform"
+  title: |
+    Why Use Terraform?
+  date: "May 2, 2017"
+  image: "stratosphere.jpg"
+  description: |
+    Learn what Terraform does, and how it compares to Chef, Puppet, Ansible, CloudFormation, and other tools.
+  call_to_action: "Read the article on O'Reilly Radar"
 - id: "published"
   url: "#buy-now"
   title: |

@@ -7,7 +7,7 @@
         <a href="{{ news.url }}" target="_blank" class="tracked" data-trk="click-news-{{ news.id }}">{% include image.html path=news.image alt=news.title %}</a>
       </div>
       <div class="sm-col sm-col-8 thin px2">
-        <h3 class="mt0 mb0">{{ news.title }}</h3>
+        <h3 class="mt0 mb0"><a href="{{ news.url }}" target="_blank" class="black tracked" data-trk="click-news-{{ news.id }}">{{ news.title }}</a></h3>
         <time class="block mb1 light-gray" datetime="{{ news.date }}">{{ news.date }}</time>
         <p class="mt0">
           {{ news.description }}

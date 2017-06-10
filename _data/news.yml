@@ -1,5 +1,15 @@
+- id: "terraform-training-velocity"
+  url: "https://conferences.oreilly.com/velocity/vl-ny/public/schedule/detail/62024"
+  title: Terraform training at Velocity Conference
+  date: "October 1, 2017"
+  image: "terraform-training.jpg"
+  description: |
+    I'll be running a 2-day training course at Velocity Conference in NYC. Learn Terraform through real-world examples:
+    deploy servers, DBs, and load balancers on AWS; build immutable infrastructure with Docker and Packer;
+    put it all together in a continuous delivery pipeline.
+  call_to_action: "Sign up for the course today!"
 - id: "why-terraform"
-  url: "#why-terraform"
+  url: "https://www.oreilly.com/learning/why-use-terraform"
   title: |
     Why Use Terraform?
   date: "May 2, 2017"

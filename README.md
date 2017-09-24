@@ -27,6 +27,7 @@ See the [Jekyll](http://jekyllrb.com/) and [GitHub Pages](https://pages.github.c
 1. Hosted on [GitHub Pages](https://pages.github.com/). I'm using the
    [GitHub Pages Gem](https://help.github.com/articles/using-jekyll-with-pages/) and only Jekyll plugins that are
    [available on GitHub Pages](https://help.github.com/articles/repository-metadata-on-github-pages/).
+1. Free SSL and CDN provided by [CloudFlare](https://www.cloudflare.com/).    
 1. I used [Basscss](http://www.basscss.com/), [Sass](http://sass-lang.com/),
    [Font Awesome Icons](http://fortawesome.github.io/Font-Awesome/icons/), and
    [Google Fonts](https://www.google.com/fonts) for styling.

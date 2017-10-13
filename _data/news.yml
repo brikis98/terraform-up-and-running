@@ -1,6 +1,6 @@
 - id: "terraform-modules-talk"
   url: "https://www.ybrikman.com/writing/2017/10/13/reusable-composable-battle-tested-terraform-modules/"
-  title: How to Build Reusable, Composable, Battle tested Terraform Modules
+  title: How to Build Reusable, Composable, Battle-tested Terraform Modules
   date: "October 12, 2017"
   image: "terraform-modules-talk.png"
   description: |

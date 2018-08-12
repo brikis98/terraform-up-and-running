@@ -1,5 +1,5 @@
 web:  
-  image: brikis98/terraform-up-and-running
+  build: .
   volumes:
     - .:/src
   ports:

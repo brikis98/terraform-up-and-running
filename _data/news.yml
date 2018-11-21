@@ -1,5 +1,5 @@
 - id: "lessons-learned-300k-talk"
-  url: "https://www.slideshare.net/brikis98/lessons-learned-from-writing-over-300000-lines-of-infrastructure-code-120597849"
+  url: "https://blog.gruntwork.io/5-lessons-learned-from-writing-over-300-000-lines-of-infrastructure-code-36ba7fadeac1"
   title: Lessons learned from writing over 300,000 lines of infrastructure code
   date: "October 24, 2018"
   image: "lessons-learned-300k.png"
@@ -9,7 +9,7 @@
     300,000 lines of infrastructure code that's used in production by hundreds of companies. Come and hear our war
     stories, laugh about all the mistakes we’ve made along the way, and learn what Terraform, Packer, Docker, and Go
     look like in the wild.
-  call_to_action: "Check out the slides!"
+  call_to_action: "Check out the video, slides, and blog post!"
 - id: "terraform-modules-talk"
   url: "https://www.ybrikman.com/writing/2017/10/13/reusable-composable-battle-tested-terraform-modules/"
   title: How to Build Reusable, Composable, Battle-tested Terraform Modules

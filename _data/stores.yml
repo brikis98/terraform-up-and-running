@@ -23,3 +23,13 @@
   url: "http://www.target.com/p/terraform-up-and-running-writing-infrastructure-as-code-paperback-yevgeniy-brikman/-/A-52154207"
   image: "target-small.png"
   value: 20
+- id: "apple"
+  name: "Apple iTunes"
+  url: "https://itunes.apple.com/us/book/terraform-up-and-running/id1215092411?mt=11"
+  image: "itunes-logo-small.png"
+  value: 20
+- id: "aladin"
+  name: "Aladin (Korean Translation)"
+  url: "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=186874171"
+  image: "aladin-logo-small.gif"
+  value: 20

@@ -1,3 +1,12 @@
+- id: "korean-translation"
+  url: "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=186874171"
+  title: |
+    <em>Terraform: Up & Running</em> has been translated into Korean!
+  date: "April 27, 2019"
+  image: "terraform-up-and-running-cover-korean-small.jpg"
+  description: |
+    <em>Terraform: Up & Running</em> is now available in Korean!
+  call_to_action: "Grab a copy on aladin.co.kr!"
 - id: "lessons-learned-300k-talk"
   url: "https://blog.gruntwork.io/5-lessons-learned-from-writing-over-300-000-lines-of-infrastructure-code-36ba7fadeac1"
   title: Lessons learned from writing over 300,000 lines of infrastructure code

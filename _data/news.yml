@@ -1,3 +1,17 @@
+- id: "2nd-edition-early-release"
+  url: "https://learning.oreilly.com/library/view/terraform-up/9781492046899/"
+  title: |
+    Early release of <em>Terraform: Up & Running</em>, 2nd edition!
+  date: "July 5, 2019"
+  image: "terraform_up&running_2e_cover_early_release_small.png"
+  description: |
+    The early release of <em>Terraform: Up & Running</em>, 2nd edition, is now available! The 2nd edition is nearly
+    double the length of the 1st edition (~160 more pages), including two completely new chapters (Production-grade
+    Terraform Code and How to Test Terraform Code), and major changes to all the original chapters and code examples to
+    take into account 4 major Terraform releases (everything is now updated through Terraform 0.12), the Terraform
+    state revamp (including backends, locking, and workspaces), Terraform providers split, Terraform Registry, HCL2,
+    and much more. Check out Terraform: Up & Running, 2nd edition announcement blog post for all the details!
+  call_to_action: "Read the Early Release now!"
 - id: "korean-translation"
   url: "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=186874171"
   title: |

@@ -61,3 +61,13 @@
   description: |
     The book includes dozens of code samples. You can find the code here:
     <a href="https://github.com/brikis98/terraform-up-and-running-code" target="_blank" class="tracked" data-trk="click-code-examples-outline-section">https://github.com/brikis98/terraform-up-and-running-code</a>.
+
+- title: Second edition
+  icon: github
+  skip_chapter: true
+  description: |
+    The book is now in its 2nd edition, which is nearly double the length of the 1st edition (~160 more pages),
+    including two completely new chapters (Production-grade Terraform Code and How to Test Terraform
+    Code), and major changes to all the original chapters and code examples. Check out the
+    <a href="https://blog.gruntwork.io/terraform-up-running-2nd-edition-early-release-is-now-available-b104fc29783f" target="_blank">2nd edition announcement blog post</a>
+    for the details on what changed!

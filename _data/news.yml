@@ -1,3 +1,15 @@
+- id: "automated-testing-talk"
+  url: "https://www.infoq.com/presentations/automated-testing-terraform-docker-packer/"
+  title: |
+    Automated Testing for Terraform, Docker, Packer, Kubernetes, and More
+  date: "November 11, 2019"
+  image: "testing-talk-cover-slide-medium.png"
+  description: |
+    This talk from QCon SF is a step-by-step, live-coding class on how to write automated tests for infrastructure
+    code, including the code you write for use with tools such as Terraform, Kubernetes, Docker, and Packer. Topics
+    covered include unit tests, integration tests, end-to-end tests, test parallelism, retries, error handling, static
+    analysis, and more.
+  call_to_action: "Check out the video and slides!"
 - id: "2nd-edition-published"
   url: "#buy-now"
   title: |

@@ -1,3 +1,14 @@
+- id: "chinese-translation"
+  url: "#buy-now"
+  title: |
+    The Chinese translation of "Terraform: Up & Running" 2nd edition is now available!
+  date: "April 7, 2020"
+  image: "chinese-cover-small.png"
+  description: |
+    The 2nd edition of <em>Terraform: Up & Running</em> has been translated into Chinese! You can grab a copy on
+    <a href="https://item.jd.com/12776777.html" target="_blank">jd.com</a> and
+    <a href="http://product.dangdang.com/29171542.html" target="_blank">dangdang.com</a>.
+  call_to_action: "Buy a copy"
 - id: "se-radio-interview"
   url: "https://www.se-radio.net/2020/04/episode-405-yevgeniy-brikman-on-infrastructure-as-code-best-practices/"
   title: |

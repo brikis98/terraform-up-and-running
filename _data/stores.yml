@@ -23,3 +23,13 @@
   url: "https://books.apple.com/us/book/terraform-up-running/id1479247818"
   image: "itunes-logo-small.png"
   value: 20
+- id: "jd"
+  name: "jd.com (Chinese translation)"
+  url: "https://item.jd.com/12776777.html"
+  image: "jd-small.png"
+  value: 20
+- id: "dangdang"
+  name: "dangdang.com (Chinese translation)"
+  url: "http://product.dangdang.com/29171542.html"
+  image: "dangdang-small.png"
+  value: 20

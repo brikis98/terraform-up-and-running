@@ -33,3 +33,13 @@
   url: "http://product.dangdang.com/29171542.html"
   image: "dangdang-small.png"
   value: 20
+- id: "piter"
+  name: "piter.com (Russian translation)"
+  url: "https://www.piter.com/collection/bestsellery-oreilly/product/terraform-infrastruktura-na-urovne-koda"
+  image: "piter-small.png"
+  value: 20
+- id: "myshop"
+  name: "my-shop.ru (Russian translation)"
+  url: "https://my-shop.ru/shop/product/4011318.html"
+  image: "myshop-small.png"
+  value: 20

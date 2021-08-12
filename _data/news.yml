@@ -1,3 +1,14 @@
+- id: "russian-translation"
+  url: "#buy-now"
+  title: |
+    The Russian translation of "Terraform: Up & Running" 2nd edition is now available!
+  date: "August 12, 2021"
+  image: "russian-cover-small.jpg"
+  description: |
+    The 2nd edition of <em>Terraform: Up & Running</em> has been translated into Russian! You can grab a copy on
+    <a href="https://www.piter.com/collection/bestsellery-oreilly/product/terraform-infrastruktura-na-urovne-koda" target="_blank">piter.com</a> and
+    <a href="https://my-shop.ru/shop/product/4011318.html" target="_blank">myshop.ru</a>.
+  call_to_action: "Buy a copy"
 - id: "chinese-translation"
   url: "#buy-now"
   title: |

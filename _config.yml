@@ -7,7 +7,7 @@ thumbnail_path: "terraform_up&running_2e_comp3D_medium.png"
 name: "Terraform: Up & Running"
 description: "This book is the fastest way to get up and running with Terraform, an open source tool that allows you to manage your infrastructure as code across a variety of cloud providers."
 website_repo_url: "https://github.com/brikis98/terraform-up-and-running"
-early_release_url: "https://learning.oreilly.com/library/view/terraform-up/9781492046899/"
+early_release_url: "https://www.oreilly.com/library/view/terraform-up-and/9781098116736/"
 
 # URLs
 contact_urls:

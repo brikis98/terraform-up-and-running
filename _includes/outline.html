@@ -1,22 +1,24 @@
-<section class="mt4 mb4 p2 max-width-3 mx-auto">
-  <h2 class="mb0">About the book</h2>
-  <p class="mt2 thin">
-    This book is for Sysadmins, Operations Engineers, Release Engineers, Site Reliability Engineers, DevOps Engineers,
-    Infrastructure Developers, Full Stack Developers, Engineering Managers, CTOs, and anyone else responsible for the
-    code <em>after</em> it has been written. If you're the one managing infrastructure, deploying code, configuring
-    servers, scaling clusters, backing up data, monitoring apps, and responding to alerts at 3AM, then this book is for
-    you.
-  </p>
-  <div class="clearfix clear-2">
-    {% for chapter in site.data.outline %}
-      <div class="md-col md-col-6 px2 mb3 center">
-        <span class="fa-stack fa-3x book-blue">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-{{ chapter.icon }} fa-stack-1x fa-inverse"></i>
-        </span>
-        <h3 class="left-align">{% unless chapter.skip_chapter %}Ch {{ forloop.index }}: {% endunless %}{{ chapter.title }}</h3>
-        <p class="light-gray thin left-align">{{ chapter.description }}</p>
-      </div>
-    {% endfor %}
+<section class="mt4 mb4 p4 pb7 clearfix bg-gray-color border-bottom border-top border-gray">
+  <div class="max-width-3 mx-auto">
+    <h2 class="mb0">About the book</h2>
+    <p class="mt2 thin">
+      This book is for Sysadmins, Operations Engineers, Release Engineers, Site Reliability Engineers, DevOps Engineers,
+      Infrastructure Developers, Full Stack Developers, Engineering Managers, CTOs, and anyone else responsible for the
+      code <em>after</em> it has been written. If you're the one managing infrastructure, deploying code, configuring
+      servers, scaling clusters, backing up data, monitoring apps, and responding to alerts at 3AM, then this book is for
+      you.
+    </p>
+    <div class="clearfix clear-2">
+      {% for chapter in site.data.outline %}
+        <div class="md-col md-col-6 px2 mb3 center">
+          <span class="fa-stack fa-3x book-blue">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-{{ chapter.icon }} fa-stack-1x fa-inverse"></i>
+          </span>
+          <h3 class="left-align">{% unless chapter.skip_chapter %}Ch {{ forloop.index }}: {% endunless %}{{ chapter.title }}</h3>
+          <p class="light-gray thin left-align">{{ chapter.description }}</p>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </section>

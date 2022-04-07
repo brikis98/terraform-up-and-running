@@ -1,3 +1,20 @@
+- id: "3rd-edition-early-release"
+  url: "https://www.oreilly.com/library/view/terraform-up-and/9781098116736/"
+  title: |
+    Early release of <em>Terraform: Up & Running</em>, 3rd edition!
+  date: "April 7, 2022"
+  image: "terraform-up-running-3rd-edition-early-release-small.jpeg"
+  description: |
+    The early release of <em>Terraform: Up & Running</em>, 3rd edition, is now available! The 3rd edition adds about
+    100 pages of new content, including two totally new chapters (one on secrets management with Terraform and one on
+    working with multiple regions, accounts, and clouds), plus major updates to all the existing chapters. The book has
+    been updated from Terraform 0.12 to Terraform 1.1, covering all the changes in between—including
+    required_providers, the provider lock file, variable validation, sensitive variables, refactoring with moved blocks,
+    module iteration, etc.—and includes new examples of how to do multi-region replication, how to deploy Docker
+    containers in Kubernetes using Terraform and EKS, how to enforce policies on your code using tools such as OPA,
+    and much more. For a full list of the changes, check out the
+    <a href="https://blog.gruntwork.io/terraform-up-running-3rd-edition-early-release-is-now-available-4efd0eb2ce0a">early release announcement blog post</a>.
+  call_to_action: "Read the Early Release now!"
 - id: "russian-translation"
   url: "#buy-now"
   title: |

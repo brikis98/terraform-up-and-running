@@ -29,8 +29,9 @@
 - title: "Terraform tips & tricks"
   icon: magic
   description: |
-    Loops with the +count+ parameter, +for_each+ and +for+ expressions, and the +for+ string directive; conditionals
-    with the +count+ parameter, +for_each+ and +for+ expressions, and the +if+ string directive; built-in functions;
+    Loops with the <code>count</code> parameter, <code>for_each</code> and <code>for</code> expressions, and the
+    <code>for</code> string directive; conditionals with the <code>count</code> parameter, <code>for_each</code> and
+    <code>for</code> expressions, and the <code>if</code> string directive; built-in functions;
     zero-downtime deployment; common Terraform gotchas and pitfalls, including count and for_each limitations,
     zero-downtime deployment gotchas, how valid plans can fail, how to refactor Terraform code safely, and what to do
     about eventual consistency.

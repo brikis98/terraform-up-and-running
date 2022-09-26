@@ -1,1 +1,1 @@
-<a href="#buy-now" class="col-12 btn btn-primary btn-big bg-green center caps tracked" data-trk="order-now-button-{{ include.id }}" data-value="{{ site.data.stores | map:'value' | first }}">Order Now</a>
+<a href="#buy-now" class="col-12 btn btn-primary btn-big {% if include.bg %}{{ include.bg }}{% else %}bg-green{% endif %} center caps tracked" data-trk="order-now-button-{{ include.id }}" data-value="{{ site.data.stores | map:'value' | first }}">{% if include.label %}{{ include.label }}{% else %}Order Now{% endif %}</a>

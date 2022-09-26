@@ -1,3 +1,16 @@
+- id: "3rd-edition-published"
+  url: "#buy-now"
+  title: |
+    <em>Terraform: Up & Running</em>, 3rd edition, has been published!
+  date: "September 26, 2022"
+  image: "terraform-up-and-running-3rd-edition-3d-cover-small.png"
+  description: |
+    <em>Terraform: Up & Running</em>, 3rd edition, has been published! It's available on Amazon, O'Reilly, and at all
+    major bookstores. The 3rd edition adds about 100 pages of new content, including two totally new chapters (one on
+    secrets management with Terraform and one on working with multiple regions, accounts, and clouds, including
+    Kubernetes), plus major updates to all the existing chapters to update the book from Terraform 0.12 to
+    Terraform 1.2.
+  call_to_action: "Get the 3rd edition now!"
 - id: "3rd-edition-early-release"
   url: "https://www.oreilly.com/library/view/terraform-up-and/9781098116736/"
   title: |
@@ -8,7 +21,7 @@
     The early release of <em>Terraform: Up & Running</em>, 3rd edition, is now available! The 3rd edition adds about
     100 pages of new content, including two totally new chapters (one on secrets management with Terraform and one on
     working with multiple regions, accounts, and clouds), plus major updates to all the existing chapters. The book has
-    been updated from Terraform 0.12 to Terraform 1.1, covering all the changes in between—including
+    been updated from Terraform 0.12 to Terraform 1.2, covering all the changes in between—including
     required_providers, the provider lock file, variable validation, sensitive variables, refactoring with moved blocks,
     module iteration, etc.—and includes new examples of how to do multi-region replication, how to deploy Docker
     containers in Kubernetes using Terraform and EKS, how to enforce policies on your code using tools such as OPA,

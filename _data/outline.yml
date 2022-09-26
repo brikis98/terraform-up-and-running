@@ -36,7 +36,7 @@
     zero-downtime deployment gotchas, how valid plans can fail, how to refactor Terraform code safely, and what to do
     about eventual consistency.
 
-- title: Managing secrets with Terraform (NEW in 3rd edition)
+- title: Managing secrets with Terraform
   icon: lock
   description: |
     An introduction to secrets management; a comparison of common secret management tools such as HashiCorp Vault,
@@ -45,7 +45,7 @@
     including how to use environment variables, encrypted files, and centralized secret stores; how to securely handle
     state files and plan files.
 
-- title: Working with multiple providers (NEW in 3rd edition)
+- title: Working with multiple providers
   icon: files-o
   description: |
     A closer look at how Terraform providers work, including how to install them, how to control the version, and how to

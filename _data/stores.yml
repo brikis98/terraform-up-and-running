@@ -1,45 +1,53 @@
 - id: "amazon"
   name: "Amazon"
-  url: "https://www.amazon.com/Terraform-Running-Writing-Infrastructure-Code/dp/1492046906"
+  url: "https://www.amazon.com/Terraform-Running-Writing-Infrastructure-Code-dp-1098116747/dp/1098116747"
   image: "amazon-small.png"
   value: 20
 - id: "barnes-noble"
   name: "Barnes & Noble"
-  url: "https://www.barnesandnoble.com/w/terraform-yevgeniy-brikman/1129799988#/"
+  url: "https://www.barnesandnoble.com/w/terraform-yevgeniy-brikman/1125298641"
   image: "barnes-noble-small.png"
   value: 20
 - id: "oreilly"
   name: "O'Reilly"
-  url: "https://learning.oreilly.com/library/view/terraform-up/9781492046899/"
+  url: "https://www.oreilly.com/library/view/terraform-up-and/9781098116736/"
   image: "oreilly-small.png"
   value: 20
 - id: "target"
   name: "Target"
-  url: "https://intl.target.com/p/terraform-up-running-2-edition-by-yevgeniy-brikman-paperback/-/A-76507216"
+  url: "https://www.target.com/p/terraform-up-and-running-3rd-edition-by-yevgeniy-brikman-paperback/-/A-86266702"
   image: "target-small.png"
   value: 20
 - id: "apple"
   name: "Apple iTunes"
-  url: "https://books.apple.com/us/book/terraform-up-running/id1479247818"
+  url: "https://books.apple.com/us/book/terraform-up-and-running/id6443437585"
   image: "itunes-logo-small.png"
   value: 20
-- id: "jd"
-  name: "jd.com (Chinese translation)"
-  url: "https://item.jd.com/12776777.html"
-  image: "jd-small.png"
+- id: "whsmith"
+  name: "WHSmith"
+  url: "https://www.whsmith.co.uk/products/terraform-up-and-running-writing-infrastructure-as-code-3rd-ed/yevgeniy-brikman/paperback/9781098116743.html"
+  image: "wh-smith-logo-small.png"
   value: 20
-- id: "dangdang"
-  name: "dangdang.com (Chinese translation)"
-  url: "http://product.dangdang.com/29171542.html"
-  image: "dangdang-small.png"
-  value: 20
-- id: "piter"
-  name: "piter.com (Russian translation)"
-  url: "https://www.piter.com/collection/bestsellery-oreilly/product/terraform-infrastruktura-na-urovne-koda"
-  image: "piter-small.png"
-  value: 20
-- id: "myshop"
-  name: "my-shop.ru (Russian translation)"
-  url: "https://my-shop.ru/shop/product/4011318.html"
-  image: "myshop-small.png"
-  value: 20
+
+# These were the translations, but only of the 2nd edition:
+#
+#- id: "jd"
+#  name: "jd.com (Chinese translation)"
+#  url: "https://item.jd.com/12776777.html"
+#  image: "jd-small.png"
+#  value: 20
+#- id: "dangdang"
+#  name: "dangdang.com (Chinese translation)"
+#  url: "http://product.dangdang.com/29171542.html"
+#  image: "dangdang-small.png"
+#  value: 20
+#- id: "piter"
+#  name: "piter.com (Russian translation)"
+#  url: "https://www.piter.com/collection/bestsellery-oreilly/product/terraform-infrastruktura-na-urovne-koda"
+#  image: "piter-small.png"
+#  value: 20
+#- id: "myshop"
+#  name: "my-shop.ru (Russian translation)"
+#  url: "https://my-shop.ru/shop/product/4011318.html"
+#  image: "myshop-small.png"
+#  value: 20

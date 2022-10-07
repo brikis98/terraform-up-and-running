@@ -28,6 +28,11 @@
   url: "https://www.whsmith.co.uk/products/terraform-up-and-running-writing-infrastructure-as-code-3rd-ed/yevgeniy-brikman/paperback/9781098116743.html"
   image: "wh-smith-logo-small.png"
   value: 20
+- id: "shroff"
+  name: "Shroff Publishers (India)"
+  url: "https://www.shroffpublishers.com/books/9789355421821/"
+  image: "shroff-publishers-small.jpg"
+  value: 20
 
 # These were the translations, but only of the 2nd edition:
 #

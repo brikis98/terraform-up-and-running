@@ -10,7 +10,7 @@
   value: 20
 - id: "oreilly"
   name: "O'Reilly"
-  url: "https://www.oreilly.com/library/view/terraform-up-and/9781098116736/"
+  url: "http://oreillymedia.pxf.io/c/5553902/2074914/15173"
   image: "oreilly-small.png"
   value: 20
 - id: "target"

@@ -59,6 +59,12 @@
   image: "storytel-small.png"
   value: 20
   type: Audibook
+- id: "audiobook.com"
+  name: "Audiobook.com"
+  url: "https://www.audiobooks.com/audiobook/terraform-up-and-running-writing-infrastructure-as-code-3rd-edition/879842?qId=350dbc785196f1cafb2f062e9eb5eb07&pos=1"
+  image: "audiobooks-small.png"
+  value: 20
+  type: Audibook
 
 # These were the translations, but only of the 2nd edition:
 #

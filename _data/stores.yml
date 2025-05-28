@@ -29,12 +29,6 @@
   image: "apple-books-small.png"
   value: 20
   type: eBook
-- id: "apple-audiobook"
-  name: "Apple Books"
-  url: "https://books.apple.com/us/audiobook/terraform-up-and-running-writing-infrastructure-as/id1796466202"
-  image: "apple-books-small.png"
-  value: 20
-  type: Audiobook
 - id: "whsmith"
   name: "WHSmith"
   url: "https://www.whsmith.co.uk/products/terraform-up-and-running-writing-infrastructure-as-code-3rd-ed/yevgeniy-brikman/paperback/9781098116743.html"
@@ -65,6 +59,12 @@
   image: "audiobooks-small.png"
   value: 20
   type: Audibook
+- id: "apple-audiobook"
+  name: "Apple Books"
+  url: "https://books.apple.com/us/audiobook/terraform-up-and-running-writing-infrastructure-as/id1796466202"
+  image: "apple-books-small.png"
+  value: 20
+  type: Audiobook
 
 # These were the translations, but only of the 2nd edition:
 #

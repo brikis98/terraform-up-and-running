@@ -3,36 +3,62 @@
   url: "https://amzn.to/3L2PvsH"
   image: "amazon-small.png"
   value: 20
+  type: Paperback, eBook, Audiobook
 - id: "barnes-noble"
   name: "Barnes & Noble"
   url: "https://www.barnesandnoble.com/w/terraform-yevgeniy-brikman/1125298641"
   image: "barnes-noble-small.png"
   value: 20
+  type: Paperback, eBook, Audiobook
 - id: "oreilly"
   name: "O'Reilly"
   url: "http://oreillymedia.pxf.io/c/5553902/2074914/15173"
   image: "oreilly-small.png"
   value: 20
+  type: |
+    O'Reilly Platform. Not a subscriber? Get a <a href="https://oreillymedia.pxf.io/c/5553902/2074898/15173" class="tracked" data-trk="oreilly-30-day-trial" data-value="30" target="_blank" title="30-day trial of O'Reilly">30-day free trial!</a>
 - id: "target"
   name: "Target"
   url: "https://www.target.com/p/terraform-up-and-running-3rd-edition-by-yevgeniy-brikman-paperback/-/A-86266702"
   image: "target-small.png"
   value: 20
+  type: Paperback
 - id: "apple"
-  name: "Apple iTunes"
+  name: "Apple Books"
   url: "https://books.apple.com/us/book/terraform-up-and-running/id6443437585"
-  image: "itunes-logo-small.png"
+  image: "apple-books-small.png"
   value: 20
+  type: eBook
+- id: "apple-audiobook"
+  name: "Apple Books"
+  url: "https://books.apple.com/us/audiobook/terraform-up-and-running-writing-infrastructure-as/id1796466202"
+  image: "apple-books-small.png"
+  value: 20
+  type: Audiobook
 - id: "whsmith"
   name: "WHSmith"
   url: "https://www.whsmith.co.uk/products/terraform-up-and-running-writing-infrastructure-as-code-3rd-ed/yevgeniy-brikman/paperback/9781098116743.html"
   image: "wh-smith-logo-small.png"
   value: 20
+  type: Paperback
 - id: "shroff"
   name: "Shroff Publishers (India)"
   url: "https://www.shroffpublishers.com/books/9789355421821/"
   image: "shroff-publishers-small.jpg"
   value: 20
+  type: Paperback
+- id: "audible"
+  name: "Audible"
+  url: "https://www.audible.com/pd/Terraform-Up-and-Running-3rd-Edition-Audiobook/B0DXQJ3MPT"
+  image: "audible-small.png"
+  value: 20
+  type: Audibook
+- id: "storytel"
+  name: "Storytel"
+  url: "https://www.storytel.com/tv/books/terraform-up-and-running-writing-infrastructure-as-code-3rd-edition-10629399"
+  image: "storytel-small.png"
+  value: 20
+  type: Audibook
 
 # These were the translations, but only of the 2nd edition:
 #

@@ -1,8 +1,17 @@
+- id: "audiobooks"
+  url: "#buy-now"
+  title: |
+    <em>Terraform: Up & Running</em> is now available as an audiobook!
+  date: "May 28, 2025"
+  image: "tuar-audiobook.jpeg"
+  description: |
+    You can now get the book as an audiobook at Audible, Apple Books, and Storytel! Happy listening!
+  call_to_action: "Get your copy now!"
 - id: "fundamentals-of-devops-published"
   url: "https://www.fundamentals-of-devops.com/?ref=tuar-website-news-published"
   title: |
     [NEW BOOK] <em>Fundamentals of DevOps and Software Delivery</em> has been published!
-  date: "June 25, 2024"
+  date: "May 20, 2025"
   image: "fundamentals-of-devops-cover-2d-color-small.png"
   description: |
     The final version of <em>Fundamentals of DevOps and Software Delivery</em> has been published! It's a hands-on guide

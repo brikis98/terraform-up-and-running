@@ -65,6 +65,12 @@
   image: "apple-books-small.png"
   value: 20
   type: Audiobook
+- id: "libre-fm"
+  name: "Libro.fm"
+  url: "https://libro.fm/audiobooks/9781663753007-terraform-up-and-running"
+  image: "libre-fm-small.png"
+  value: 20
+  type: Audiobook
 
 # These were the translations, but only of the 2nd edition:
 #

@@ -68,7 +68,7 @@
 - id: "libre-fm"
   name: "Libro.fm"
   url: "https://libro.fm/audiobooks/9781663753007-terraform-up-and-running"
-  image: "libre-fm-small.png"
+  image: "libro-fm-small.png"
   value: 20
   type: Audiobook
 
